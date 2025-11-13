@@ -16,12 +16,12 @@ delete(gcp('nocreate'));
 mypool = parpool(cpus);
 disp('Pool lo /aded!');
 
-alpha=1/3 %1/3;
-rho=.9 %.9
-beta=.99; %.99 .989-.995
-mu=0; %safe income
-delta=.025; %.025 also yields safe income .01-.04 quarterly, .025 popular
-theta=1.5 %1.5 Frisch elast = 1/(theta-1), 1.25-2.25 since otherwise makes MU leisure non-decreasing in leisure
+alpha=1/3;
+rho=.9;
+beta=.99;
+mu=0; %
+delta=.025;
+theta=1.5; % Frisch elast = 1/(theta-1), 1.25-2.25 since otherwise makes MU leisure non-decreasing in leisure
 %sdzsteps=4
 %sdzstep=.04/sdzsteps; %.005
 sigmavect=[20; 15; 10; 5; 4; 3; 2; 1.01; .5; 0]; %[4; 3; 2; 1.01; .5; 0] CHANGE FIG LABELS IF CHANGE, [4, 3, 2, 1.01, .5, 0] % sigma can't equal 1
