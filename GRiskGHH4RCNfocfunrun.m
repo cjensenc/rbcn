@@ -16,11 +16,11 @@ display(datetime);
 % mypool = parpool(cpus);
 % disp('Pool loaded!');
 
-alpha=1/3 %1/3;
-rho=.9 %.9
-beta=.99; %.99 .989-.995
-mu=0; %safe income
-delta=.025; %.025 also yields safe income .01-.04 quarterly, .025 popular
+alpha=1/3;
+rho=.9;
+beta=.99;
+mu=0; %
+delta=.025;
 theta=1.5 % Frisch elast = 1/(theta-1), 1.25-2.25 since otherwise makes MU leisure non-decreasing in leisure
 %sdzsteps=4
 %sdzstep=.04/sdzsteps; %.005
